@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+  }
+  
+  .container {
+    background: url("https://www.google.com/drive/static/images/home/intro-1600.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .container .row1 {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+  }
+  .container .row1 .left {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .container .row1 .right {
+    display: flex;
+    text-transform: capitalize;
+  }
+  .container .row1 .right div {
+    margin: 0px 10px;
+  }
+  
+  .container .row2 {
+    height: calc(100vh - 50px);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .container .row2 img {
+    height: 77px;
+  }
+  
+  .container .row2 div {
+    color: white;
+    margin: 20px 0;
+    font-size: 20px;
+  }
+  .container .row2 button {
+    background: dodgerblue;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+  }
+  
